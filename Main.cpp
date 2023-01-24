@@ -13,7 +13,8 @@ int main() {
   cout << "Введiть цiле число #1: "; cin >> num1;
   cout << "Введiть цiле число #2: "; cin >> num2;
 
-	cout << function(num1, num2) << endl;
+	cout << "Найменше спільне кратне дорівнює: "
+    << function(num1, num2) << endl;
 }
 
 /*
