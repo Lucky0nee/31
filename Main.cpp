@@ -2,13 +2,13 @@
 using namespace std;
 
 int function(int num1, int num2) {
-	for (long long int i = 1;; i++)
+	for (long long int i = (num2 > num1 ? num1 : num2);; i++)
 		if (i % num1 == 0 && i % num2 == 0)
 			return i;
 }
 
 int main() {
-	//system("chcp 1251>nul");
+	system("chcp 1251>nul");
 	int num1, num2;
   cout << "Введiть цiле число #1: "; cin >> num1;
   cout << "Введiть цiле число #2: "; cin >> num2;
